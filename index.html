@@ -3,7 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
     <title>Real-time Character Counter</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="main">
+          <div class="title">
+            <h2>Real-time Character Counter</h2>
+          </div>
+          <div class="text-area-div">
+            <textarea id="text-area"></textarea>
+          </div>
+          <div class="counters">
+            <div class="Counter_Character">
+              <p>Total Character : <span id="Counter_C"></span></p>
+            </div>
+            <div class="Counter_remaining">
+              <p>Remaining : <span id="COunter_R"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/Character_Counter/index.js"></script>
+  </body>
 </html>
