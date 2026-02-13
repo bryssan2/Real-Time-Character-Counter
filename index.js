@@ -15,7 +15,7 @@ function update() {
 textArea.addEventListener("keydown", (e) => {
   const isChar = e.key.length === 1;
 
-  if (isChar && textArea.value.length >= limit) {
+  if (isChar && textArea.value.length > limit) {
     e.preventDefault();
     return;
   }
