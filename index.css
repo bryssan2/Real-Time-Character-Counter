@@ -48,8 +48,8 @@ body {
 }
 .main .text-area-div {
   position: relative;
-  width: 350px;
-  height: 100px;
+  width: 90%;
+  height: 30%;
 }
 .text-area-div #text-area {
   position: absolute;
